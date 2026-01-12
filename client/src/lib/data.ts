@@ -100,7 +100,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/natural-emergent-misalignment.jpg',
     type: 'paper',
-    link: 'https://www.anthropic.com/research/reward-hacking'
+    link: 'https://arxiv.org/abs/2511.18397'
   },
   {
     id: 'p3',
@@ -109,7 +109,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/batch-size-pretraining.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2406.07449'
+    link: 'https://arxiv.org/abs/2601.05034'
   },
   {
     id: 'p4',
@@ -118,7 +118,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/nested-learning.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2402.12345'
+    link: 'https://arxiv.org/abs/2512.24695'
   },
   {
     id: 'p5',
@@ -127,7 +127,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/talagrand-conjecture.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2309.12345'
+    link: 'https://arxiv.org/abs/2511.19374'
   },
   {
     id: 'p6',
@@ -136,7 +136,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/tidar-diffusion.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2406.12345'
+    link: 'https://arxiv.org/abs/2511.08923'
   },
   {
     id: 'p7',
@@ -145,7 +145,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/incremental-improvement.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2401.12345'
+    link: 'https://arxiv.org/abs/1804.02767'
   },
   {
     id: 'p8',
@@ -154,7 +154,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2023',
     cover: '/images/deep-causal-learning.png',
     type: 'paper',
-    link: 'https://www.vanderschaar-lab.com/deep-causal-learning/'
+    link: 'https://dl.acm.org/doi/10.1145/3762179'
   },
   {
     id: 'p9',
@@ -163,6 +163,6 @@ export const libraryItems: LibraryItem[] = [
     year: '2023',
     cover: '/images/simplicial-hopfield.jpg',
     type: 'paper',
-    link: 'https://arxiv.org/abs/2305.12345'
+    link: 'https://arxiv.org/abs/2305.05179'
   }
 ];
