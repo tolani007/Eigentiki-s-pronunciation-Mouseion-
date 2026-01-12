@@ -71,7 +71,7 @@ export const libraryItems: LibraryItem[] = [
     year: '2024',
     cover: '/images/why-machines-learn.jpg',
     type: 'book',
-    link: 'https://www.amazon.com/Why-Machines-Learn-Elegant-Behind/dp/059347460X'
+    link: 'https://www.scribd.com/document/846961269/Why-Machines-Learn-PDF'
   },
   {
     id: '8',
