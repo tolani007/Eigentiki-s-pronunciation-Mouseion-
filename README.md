@@ -2,7 +2,7 @@
 
 A curated digital garden showcasing books, research papers, and essays that have significantly influenced my worldview. This project serves as both a personal archive and a public resource for exploring transformative ideas.
 
-## 🌟 Project Overview
+## Project Overview
 
 This website is designed with an **"Ethereal Minimalism"** aesthetic, prioritizing readability and a calm, contemplative user experience. It features a responsive grid layout where each item is presented as a card that reveals source links upon interaction.
 
@@ -13,7 +13,7 @@ This website is designed with an **"Ethereal Minimalism"** aesthetic, prioritizi
 - **Responsive Layout**: A masonry-style grid that adapts seamlessly from mobile to desktop screens.
 - **Ethereal Aesthetic**: A warm, organic color palette using sage greens and soft creams, paired with elegant serif typography.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 This project was built using a modern, performance-focused stack:
 
@@ -27,7 +27,7 @@ This project was built using a modern, performance-focused stack:
 | **Typography** | [Google Fonts](https://fonts.google.com/) | Using *Playfair Display* for headings and *Inter* for body text. |
 | **Deployment** | [Vercel](https://vercel.com/) | Zero-configuration deployment and hosting. |
 
-## 🚀 How It Was Built
+## How It Was Built
 
 The development process followed a structured approach to ensure high quality and performance:
 
@@ -38,7 +38,7 @@ The development process followed a structured approach to ensure high quality an
 5.  **Styling & Theming**: Configured Tailwind CSS with a custom color palette (sage, cream, charcoal) and typography settings.
 6.  **Deployment**: Connected the local repository to GitHub, which automatically triggers deployments on Vercel.
 
-## 📦 Installation & Local Development
+## Installation & Local Development
 
 To run this project locally on your machine:
 
@@ -67,7 +67,7 @@ To run this project locally on your machine:
     npm run build
     ```
 
-## 🔗 Live Website
+## Live Website
 
 Visit the live collection here: **[Insert Your Vercel Link Here]**
 
