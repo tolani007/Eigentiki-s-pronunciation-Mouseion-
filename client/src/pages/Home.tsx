@@ -1,6 +1,7 @@
 import { LibraryCard } from "@/components/LibraryCard";
 import { Button } from "@/components/ui/button";
 import { libraryItems } from "@/lib/data";
+import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import { useState } from "react";
 
 export default function Home() {
@@ -29,6 +30,46 @@ export default function Home() {
             A curated collection of books, research papers, and essays that have significantly influenced my worldview. 
             Hover to explore the sources.
           </p>
+
+          {/* Social Links */}
+          <div className="mt-6 flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/tolani-akinola"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
+            <a
+              href="https://github.com/tolani007"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="GitHub"
+            >
+              <Github className="h-5 w-5" />
+            </a>
+            <a
+              href="https://x.com/tolaniakinola"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Twitter"
+            >
+              <Twitter className="h-5 w-5" />
+            </a>
+            <a
+              href="https://www.instagram.com/tolaniakinola/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="h-5 w-5" />
+            </a>
+          </div>
         </div>
 
         {/* Filter Tabs */}
