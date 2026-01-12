@@ -69,7 +69,7 @@ To run this project locally on your machine:
 
 ## Live Website
 
-Visit the live collection here: **[Insert Your Vercel Link Here]**
+Visit the live collection here: **[https://eigentikilibrary.manus.space/](https://eigentikilibrary.manus.space/)**
 
 ---
 
