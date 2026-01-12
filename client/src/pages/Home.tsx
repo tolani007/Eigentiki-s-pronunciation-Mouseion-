@@ -1,5 +1,11 @@
 import { LibraryCard } from "@/components/LibraryCard";
 import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { libraryItems } from "@/lib/data";
 import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { useState } from "react";
@@ -69,13 +75,24 @@ export default function Home() {
             >
               <Instagram className="h-5 w-5" />
             </a>
-            <a
-              href="mailto:tolaniakinola@gmail.com"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="Email"
-            >
-              <Mail className="h-5 w-5" />
-            </a>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <button
+                    className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+                    aria-label="Email"
+                    onClick={() => {
+                      navigator.clipboard.writeText("tolaniakinola@gmail.com");
+                    }}
+                  >
+                    <Mail className="h-5 w-5" />
+                  </button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>tolaniakinola@gmail.com</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </div>
         </div>
 
