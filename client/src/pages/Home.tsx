@@ -1,7 +1,7 @@
 import { LibraryCard } from "@/components/LibraryCard";
 import { Button } from "@/components/ui/button";
 import { libraryItems } from "@/lib/data";
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { useState } from "react";
 
 export default function Home() {
@@ -68,6 +68,13 @@ export default function Home() {
               aria-label="Instagram"
             >
               <Instagram className="h-5 w-5" />
+            </a>
+            <a
+              href="mailto:tolaniakinola@gmail.com"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Email"
+            >
+              <Mail className="h-5 w-5" />
             </a>
           </div>
         </div>
