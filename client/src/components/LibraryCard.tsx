@@ -22,7 +22,7 @@ export function LibraryCard({ item }: LibraryCardProps) {
         {/* Book Cover Container */}
         <div className="relative aspect-[2/3] w-full overflow-hidden rounded-md bg-muted shadow-sm transition-all duration-500 group-hover:shadow-xl">
           <img
-            src={item.coverUrl}
+            src={item.cover}
             alt={item.title}
             className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
           />
