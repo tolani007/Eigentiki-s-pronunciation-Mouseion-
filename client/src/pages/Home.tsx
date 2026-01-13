@@ -147,11 +147,7 @@ export default function Home() {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} My Library. Cultivated with care.
           </p>
-          <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">About</a>
-            <a href="#" className="hover:text-primary transition-colors">Garden</a>
-            <a href="#" className="hover:text-primary transition-colors">Now</a>
-          </div>
+
         </div>
       </footer>
     </div>
