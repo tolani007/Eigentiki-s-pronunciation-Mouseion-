@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 export function LiquidHeart({ className }: { className?: string }) {
   return (
     <div className={cn("relative flex items-center justify-center perspective-1000", className)}>
-      <div className="relative h-16 w-16 animate-[spin_6s_linear_infinite] style={{ transformStyle: 'preserve-3d' }}">
+      <div className="relative h-16 w-16 animate-[spin_6s_linear_infinite]" style={{ transformStyle: 'preserve-3d' }}>
         {/* Front face of the glass heart */}
         <div className="absolute inset-0 flex items-center justify-center">
           <svg
