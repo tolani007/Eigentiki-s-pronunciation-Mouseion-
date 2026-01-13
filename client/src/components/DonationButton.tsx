@@ -33,17 +33,10 @@ export function DonationButton() {
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <a
-            href="https://stripe.com" 
+            href="https://donate.stripe.com/test_dRm9AT2gI7AT92VeRe5kk01" 
             target="_blank"
             rel="noopener noreferrer"
             className="w-full"
-            onClick={(e) => {
-               // Placeholder alert until user adds their link
-               if (e.currentTarget.href === 'https://stripe.com/') {
-                 e.preventDefault();
-                 alert("Please configure your Stripe Payment Link in DonationButton.tsx");
-               }
-            }}
           >
             <Button className="w-full gap-2 bg-[#635BFF] hover:bg-[#534ACF] text-white" size="lg">
               <CreditCard className="h-5 w-5" />
