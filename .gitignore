@@ -104,3 +104,23 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+
+# Security and Secrets
+.env*
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ed25519
+*.ovpn
+*.ppk
+.ssh/
+secrets.json
+config.json
+auth.json
+credentials.json
+token.json
