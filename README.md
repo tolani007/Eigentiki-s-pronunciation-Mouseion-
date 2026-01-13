@@ -25,7 +25,7 @@ This project was built using a modern, performance-focused stack:
 | **Routing** | [Wouter](https://github.com/molefrog/wouter) | A minimalist, hook-based routing library for React. |
 | **Icons** | [Lucide React](https://lucide.dev/) | Beautiful, consistent, and customizable icons. |
 | **Typography** | [Google Fonts](https://fonts.google.com/) | Using *Playfair Display* for headings and *Inter* for body text. |
-| **Deployment** | [Manus]([https://vercel.com/](https://eigentikilibrary.manus.space/)) |  deployment and hosting. |
+| **Deployment** | [Manus](https://eigentikilibrary.manus.space/) |  deployment and hosting. |
 
 ## How It Was Built
 
